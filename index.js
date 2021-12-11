@@ -6,4 +6,7 @@ const log = console.log;
 
 const groceries = ['Tea', null, 'Oat Milk', 'Carrots', undefined, 'Bread', ''];
 
+const cleanList = groceries.filter(Boolean);
+
 log(groceries);
+log(cleanList);
