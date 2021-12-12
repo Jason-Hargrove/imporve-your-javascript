@@ -69,4 +69,13 @@ const log = console.log;
 // log(chainDirectly);
 
 
-// ===== 7. Directly chaining an await clause. =====
+// ===== 7. Directly returning an object from an arrow function. =====
+const createPerson = (age, name, nationality) => ({
+  age,
+  name,
+  nationality
+});
+
+const caroline = createPerson(27, 'Caroline', 'US');
+
+log(caroline);
