@@ -52,11 +52,21 @@ const log = console.log;
 
 
 // ===== 5. Renaming variables during object destructuring. =====
-const caroline = {
-  firstNm: 'Caroline',
-  ag: 27
-};
-log(caroline);
+// const caroline = {
+//   firstNm: 'Caroline',
+//   ag: 27
+// };
+// log(caroline);
+//
+// const {firstNm: firstName, ag: age} = caroline;
+// log(firstName, age);
 
-const {firstNm: firstName, ag: age} = caroline;
-log(firstName, age);
+
+// ===== 6. Directly chaining an await clause. =====
+// const chainDirectly = (await fetch('https://www.people.com'))
+//   .filter(person => age > 20)
+//   .filter(person => nationality === 'NL')
+// log(chainDirectly);
+
+
+// ===== 7. Directly chaining an await clause. =====
