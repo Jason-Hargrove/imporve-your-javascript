@@ -44,3 +44,8 @@ const people = [
 
 
 // ===== 4. Ignoring values in array destructuring. =====
+const [, , caroline] = people;
+// log(caroline);
+
+const [, , {age}] = people;
+log(age);
